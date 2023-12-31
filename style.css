@@ -1,0 +1,187 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.mid-content{
+  max-width: 720px;
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: #1a72e8;
+}
+
+img{
+  max-width:100%;
+}
+
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+  
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+/* Begin Main Css */
+
+body,h2,p,a{
+  font-family: 'Roboto', sans-serif;
+}
+
+.google-signin-form{
+  height: 980px;
+  width: 835px;
+  border: 1px solid #ddd;
+  margin: auto;
+  margin-top: 250px;
+  border-radius: 15px;
+}
+
+.logo img{
+  height: 55px;
+  margin-top: 100px;
+  margin-bottom: 23px;
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+
+/* Form */
+
+form{
+  margin-top: 70px;
+}
+
+.form p{
+  color: #5f626f;
+}
+
+.default-input{
+  width: 650px;
+  padding: 30px 30px;
+  font-size: 33px;
+  border-radius: 6px;
+  border: 2px solid #ddd;
+}
+
+.default-input:focus{
+  border: 2px solid #1a72e8;
+}
+
+.link{
+  position: relative;
+  left: 15px;
+  top: 0;
+  font-size: 30px;
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.link a{
+  
+}
+
+.link p{
+  margin-top: 90px;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.bottom{
+  margin-top: 90px;
+}
+  
+.bottom .btn{
+  position: relative;
+  left: 265px;
+  background: #1a72e8;
+  padding: 15px 60px;
+  font-size: 30px;
+  font-weight: 500;
+  border-radius: 7px;
+}
+
+.bottom .btn a{
+  color: #fff;
+}
+
+.bottom .account{
+  padding: 15px 20px;
+  border-radius: 8px;
+  position: relative;
+  right: 22px;
+  font-weight: 400;
+}
+
+
+
+/* Footer */
+
+.footer{
+  
+}
+
+.language{
+  width: 48%;
+}
+
+.language select{
+  margin-left: 60px;
+  border: none;
+  font-size: 24px;
+  margin-top: 35px;
+  padding: 10px 16px;
+  font-weight: 400;
+}
+
+.footer-menu{
+  width: 48%;
+}
+
+.footer-menu ul{
+  margin-right: 72px;
+  margin-top: 45px;
+}
+.footer-menu ul li{
+  display: inline-block;
+}
+.footer-menu ul li a{
+  display: block;
+  font-size: 24px;
+  line-height: 1.5em;
+  color: #363b3f;
+  font-weight: 400;
+  margin-left: 30px;
+  padding: 0px 10px;
+}
